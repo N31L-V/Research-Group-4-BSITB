@@ -1,0 +1,60 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background-color: #f4f7f6;
+  color: #2c3e50;
+}
+
+.container {
+  max-width: 500px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+header h1 {
+  color: #003366; /* DSWD Blue */
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 0;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  border-top: 5px solid #003366;
+}
+
+.btn-primary {
+  background-color: #003366;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #002244;
+}
+
+.btn-primary:disabled {
+  background-color: #cccccc;
+}
+
+#status {
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.footer {
+  margin-top: 30px;
+  font-size: 0.75rem;
+  color: #999;
+}
